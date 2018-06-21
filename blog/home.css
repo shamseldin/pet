@@ -1,0 +1,61 @@
+ .navbar {
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #f7600e !important;
+  }
+  .navbar form button{ background-color:  #f7600e !important;}
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: #f7600e  !important;
+  }
+  
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-inner h2 {color: #f7600e;font-size: 50px;font-style: italic}
+   .carousel-inner p {color: #FFF;font-size: 30px;font-style: italic}
+   .carousel-inner button{float:center ;padding: 10px;width: 200px;border: 1px solid;border: none;
+background-color:#f7600e;border-radius: 10px;font-size: 14px;text-transform: uppercase}
+ .carousel-inner button a{color: #FFF}
+
+.carousel-indicators .active {background-color:#f7600e; }
+ 
+  .footer{background-color: #3b434c;color: #FFF;overflow: hidden}
+.footer .copyright{float: left}
+.footer .design{float: right}

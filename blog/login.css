@@ -1,0 +1,45 @@
+ body{font-family: Arial.Tahome;background-repeat: no-repeat;font-family: 'Open Sans',sans-serif;margin: 0}
+     body{background: url(' man-791049_640.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+      -o-background-size: cover
+}
+     .overlay{
+    background: rgba(49, 55, 61, .11); /* el safafea el 3ala sora */
+    width: 1400px;height: 638px}
+    
+    .container {width: 1200px; margin: auto}
+    
+     form{padding: 70px 30px}
+     fieldset{background: #FFF;border: 1px solid #CCC;padding:10px;margin-bottom: 100px;width: 500px;margin: 10px auto;background-color: #EEE}
+     legend{background: #FFF;border: 1px solid#CCC;padding: 10px;border-radius: 10px}
+     
+     table {height: 100%;display: table}
+      .text-center {text-align: center}
+     .upper {text-transform: uppercase}
+
+   checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px
+    font-weight: 200;
+    cursor: pointer}
+
+
+     label,input,select{}
+     label{margin-bottom: 10px;display: block;text-align: left}
+     input{margin-bottom: 10px}
+     input[type="text"],input[type="password"],textarea{padding: 8px;width: 300px;display: block;border-radius: 10px}
+     
+     hr{border: 1px solid #EEE}
+     select{padding: 6px}
+     textarea{margin-bottom: 10px;height: 200px}
+     
+     .form .buttons button{background: transparent;padding: 5px 0;width: 180px;
+       font-size: 14px;border: 1px solid #909090;margin: 10px 8px;border-radius: 10px;background-color: #f7600e; color: #FFF;
+      -webkit-transition: all .5s ease-in-out;
+       moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out}
+
+    

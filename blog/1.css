@@ -1,0 +1,54 @@
+ .navbar {
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #f7600e !important;
+  }
+  .navbar form button{ background-color:  #f7600e !important;}
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  
+  .table {height: 100%;display: table}
+.table-row{display:table-row }
+
+.text-center {text-align: center}
+.container {width: 1200px; margin: auto}
+.body .intro h4{margin: 100px;font-weight: 800;font-size: 50px}
+.body .intro h3{margin :20px;font-weight: 600;font-size: 30px}
+.body .intro p{margin: 20px;font-size: larger}
+.body .intro form textarea{margin-top: 20px;width: 100%;
+padding: 10px;height: 140px;border-radius: 10px;border: 1px solid #CCC}
+
+.body .intro form .info {overflow: hidden;margin-top: 10px}
+.body .intro form .info button{float: left;padding: 10px;width: 200px;border: 1px solid;border: none;
+background-color:#f7600e;border-radius: 10px;font-size: 14px;margin-bottom: 10px}
+ .body .intro form .info .form-icons{float: right}
+
+.body .intro form .info .form-icons i{background-color: #999;width: 40px;height: 40px;line-height: 40px;
+border-radius: 50%;color: #FFF;margin-left: 8px ;margin-bottom: 10px}
+.body .intro form .info .form-icons .fa-facebook {background-color: #3b5998}
+.body .intro form .info .form-icons .fa-twitter {background-color: #1da1f2}
+.body .intro form .info .form-icons .fa-google-plus {background-color: #dd4b39}

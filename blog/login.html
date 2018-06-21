@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset = "utf-8">
+   <title> log in</title>
+
+ </head>
+ <style >
+    body{font-family: Arial.Tahome;background-repeat: no-repeat;font-family: 'Open Sans',sans-serif;margin: 0}
+     body{background: url(' man-791049_640.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+      -o-background-size: cover
+}
+     .overlay{
+    background: rgba(49, 55, 61, .8); /* el safafea el 3ala sora */
+      width: 1366px;height: 638px}
+    
+    .container {width: 1200px; margin: auto}
+    
+     form{padding: 120px 30px}
+     
+     table {height: 100%;display: table}
+      .text-center {text-align: center}
+     .upper {text-transform: uppercase}
+
+   checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px
+    font-weight: 200;
+    cursor: pointer}
+
+     label,input,select{}
+     label{margin-bottom: 10px;display: block;text-align: center;margin: 20px auto;color: #FFF}
+
+     input{margin-bottom: 10px}
+     input[type="text"],input[type="password"],textarea{padding: 8px;width: 300px;display: block;border-radius: 10px;margin: 20px auto;  background: transparent;7
+      color: #FFF ;border: 1px solid #ffffff}
+      ::-webkit-input-placeholder{color: #FFF ;}
+      :-moz-placeholder{color: #FFF ;}
+     ::-moz-placeholder{color: #FFF ;}
+ :-ms-input-placeholder{color: #FFF ;}
+
+    
+     
+     .form .buttons button{background: transparent;padding: 5px 0;width: 180px;
+       font-size: 14px;border: 1px solid #909090;margin: 10px 8px;border-radius: 10px;background-color: #f7600e; color: #FFF;
+      -webkit-transition: all .5s ease-in-out;
+       -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out}
+ </style>
+ <body >
+   <div class="form">
+  <div class= "overlay">
+   <div class="container">
+    <div class="table-row">
+     <div class= "intro text-center">
+   <form name="register" action="login.php" method="post">
+                 <input type= "text" name="username" placeholder= "your name">
+  
+          
+            <input type ="password" name="password" placeholder="number">
+            <div class="col-sm-offset-4 col-sm-4">
+               <div class="checkbox">
+                      <label>
+                           <input type="checkbox"> Remember me
+                               </label>
+                                </div>
+                   <div class= "buttons">
+      <button class="upper" name="submit"> Log in </button>
+   
+                   <button class="upper" >  <a href="blog.html" > Back </a></button>
+               </div>
+      </fieldset>
+   </form>
+     </div>
+    </div>
+    </div>
+   </div>
+   </div>
+ 
+     
+  
+ </body>
+</html>
+
+
+<?php
+
+if(isset($_POST['submit'])){
+  $user_name = $_POST['username'];
+ 
+  $Password = $_POST['password'];
+
+
+   $link = mysqli_connect("localhost","root","");
+
+   mysqli_select_db($link, "blog");
+
+ $query=mysqli_query($link,"select * from users where User_name = '$user_name' and Password = '$Password'");
+   
+    if(mysqli_num_rows($query)==1) {
+      $_SESSION['message'] = "You are now logged in";
+       $_SESSION['user_name'] = $user_name;
+       header("location: home1.php");
+    }else{
+        $_SESSION['message'] = "error";
+    }
+
+  //}
+
+}
+
+
+
+?>

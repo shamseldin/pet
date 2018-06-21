@@ -1,0 +1,44 @@
+body{font-family: Arial.Tahome;
+       background-repeat: no-repeat;
+       font-family: 'Open Sans',sans-serif;
+       margin:0;  
+       background: url('blog-photo.jpg');
+       -webkit-background-size: cover;
+      -moz-background-size: cover;
+       -o-background-size: cover;
+     
+     }
+
+      .overlay{ background: rgba(49, 55, 61, .8); /* el safafea el 3ala sora */
+     width: 1366px;height: 638px}
+    
+      table {height: 100%;display: table}
+      .text-center {text-align: center}
+      .upper {text-transform: uppercase}
+         
+      .container {width: 1200px; margin: auto}
+         
+     form{padding: 50px 30px;color: #FFF}
+
+  
+     input{padding: 8px;width: 300px;display: block;border-radius: 10px; margin: 20px auto;
+      margin-bottom: 35px;
+    background: transparent;color: #FFF ;border: 1px solid #ffffff}
+ ::-webkit-input-placeholder{color: #FFF ;}
+      :-moz-placeholder{color: #FFF ;}
+     ::-moz-placeholder{color: #FFF ;}
+ :-ms-input-placeholder{color: #FFF ;}
+
+     select{padding: 6px;display: block;border-radius: 10px; margin: 20px auto;background: transparent;border: 1px solid #ffffff;color: #FFF}
+    
+     
+      .home .buttons button{background-color: #f7600e; color: #FFF ;padding: 5px 0;width: 180px;
+            font-size: 14px;border: 1px solid #909090;margin: 0 8px;border-radius: 10px;
+             -moz-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out}
+
+  
+   .home .buttons  a{color: #FFF}
+      .home .buttons  a:hover{color: #FFF}
+       .home  a{color: #f7600e}
+        
