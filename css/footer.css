@@ -1,0 +1,25 @@
+
+/* start footer*/
+.footer{
+background-color: #00a79d;
+color: #b6e4e0;
+overflow: hidden;
+padding: 20px 0;
+    font-size: 15px
+}
+.footer .copyright{
+    float: left
+}
+.footer .design{
+    float: right;
+    
+}
+@media (min-width: 992px) {
+.footer .design i{
+    margin-left: 40px;
+    font-size: 27px;
+    color: #b6e4e0;
+}
+}
+
+/* end footer*/

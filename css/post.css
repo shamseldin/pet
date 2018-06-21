@@ -1,0 +1,233 @@
+/* start navebar */
+body {
+    height: 2000px;
+}
+
+
+ /* start header */
+
+
+#mySidenav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 5px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0 5px 5px 0;
+    margin-top: 140px;
+    height: 80px;
+    z-index: 1;
+    } 
+
+#mySidenav  img{
+    width: 55px;
+    height: 55px;
+ 
+    }
+
+#mySidenav a:hover {
+   left: 0px;
+    width: 250px;
+    font-size: 20px;
+    }
+
+#market {
+    top: 70px;
+    background-color:  #999;
+    margin-bottom: 10px;
+}
+
+#coffe {
+    top: 130px;
+    background-color: #00a79d ;
+}
+
+#garden {
+    top: 190px;
+    background-color:#e66761;
+}
+
+#clinic {
+    top: 250px;
+    background-color: #999;
+}
+#vaccination {
+    top: 310px;
+    background-color: #00a79d;
+}
+
+ /* end header */
+
+
+
+ /* start post */
+
+.features .text1 {
+ cursor: auto;
+    resize: none;
+    padding: 35px 10px;
+   border-radius: 10px;
+    margin-top: 120px;
+    border: 5px solid #e66761;
+    
+
+}
+.text {
+     width: 100%
+}
+
+@media (min-width: 992px){
+  .features .text1   {
+     width: 40%
+   
+    }
+} 
+
+::-webkit-input-placeholder{color:#00a79d}
+
+:focus{
+    outline: none;
+}
+.hide-me:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+.hide-me:focus::-moz-input-placeholder
+    opacity: 0;
+}
+.hide-me:focus::-ms-input-placeholder{
+    opacity: 0;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top:0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background: rgba(49, 55, 61, .6)  ;
+    padding:0px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 6% auto 1% auto; 
+    border: 1px solid #888;
+     /* Could be more or less, depending on screen size */
+}
+@media (min-width: 992px){
+   .modal-content {
+        width: 50%;
+}
+}
+.modal-content textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    margin: 1% auto 3% auto;
+    border:none;
+    cursor: auto;
+}
+.modal-content .add{
+margin-left: 10px;
+    margin-top: 30px;
+color: #e66761
+}
+.modal-content img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 0px
+}
+.clearfix{
+    text-align: left;
+}
+.cancelbtn ,
+.signupbtn {
+    padding: 10px 20px;
+    background-color: #00a79d;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    width: 100px;
+    
+}
+
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e66761;
+}
+.close:hover,
+.close:focus {
+    color: #e66761;
+    cursor: pointer;
+}
+
+.features .post {
+ 
+   
+  
+    margin-top: 120px;
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 1px 0 2px 0 rgba(0, 0, 0, 0.2), -1px -1px 2px 0 rgba(0, 0, 0, 0.2);
+    
+    
+}
+@media (min-width: 992px){
+    .features .post {
+       width: 50%;
+         margin-left: 300px;
+    }
+}
+.features .write .minde{
+    width: 100%;
+    height: 160px;
+     resize: none;
+    margin: 1% auto 3% auto;
+    border:none;
+    cursor: auto;
+}
+.features .post #text2{
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: auto;
+    resize: none;
+   text-align: left;
+    display: none;
+}
+.features .reply{
+    text-align: left;
+    
+}
+.features .reply button{
+
+   border: 1px solid #00a79d;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
+   
+    border-radius: 20px
+
+}
+
+
+
+/* Clear floats */
+
+ 

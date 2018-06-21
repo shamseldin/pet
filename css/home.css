@@ -1,0 +1,399 @@
+*{
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box ;
+}
+
+/1
+
+/* start heder */
+.table{
+   padding: 0;
+     height: 400px;
+    width: 1366px;
+}
+
+
+.carousel-caption  button{
+    float:center ;
+    padding: 5px;
+    width: 200px;
+    border: 2px solid #00a79d;
+    color: #e66761 ;
+    background-color:transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 15px;
+
+}
+
+ .carousel-caption  button a{
+     color: #FFF
+}
+.carousel-indicators li {
+    border: 1px solid #00a79d
+}
+.carousel-indicators .active {
+    background-color: #e66761;
+
+   }
+
+.header .arrow{
+display: none;
+cursor: pointer;
+outline: none !important;
+right: 30px;
+  position: fixed;
+  z-index: 1; 
+    top: 550px;
+}
+
+.header .arrow i { 
+border: 2px solid #e66761;
+height: 40px;
+width: 40px;
+cursor: pointer;
+line-height: 33px; /* a5le sahm nos daera */
+background-color: transparent;
+color: #00a79d;
+ border-radius: 50%;
+text-align: center
+
+}
+/* end header */
+
+/* start pets place */
+.features{
+    padding: 120px 0px 120px 0px;
+   
+    margin-top: 20px;
+    }
+
+
+ .features .box img {
+       
+    height: 95px;
+ float: left;
+    margin: auto
+    }
+
+@media (min-width: 992px){
+    .features{
+    padding: 120px 150px 120px 150px;
+    overflow: hidden;
+    margin-top: 0px;
+    }
+
+    .features .box img {
+    
+  margin: 0px 20px 0 120px;
+    
+    height: 200px;
+
+    }
+    .features .fa-chevron-right{
+        font-size: 32px;
+        
+          margin-right:  100px;
+    }
+    .features .fa-chevron-left{
+    margin-left:  150px;
+       
+    font-size: 32px;
+    }
+}
+
+.features .fa-chevron-right{
+    position: absolute;
+   margin-top: 60px;
+    right: 15px;
+      
+    color: #00a79d;
+}
+.features .fa-chevron-left{
+    position: absolute;
+    margin-top: 60px;
+   left: 15px;
+    color: #00a79d;
+    }
+/* end pets place*/
+
+
+/* start search */
+
+.subscribe{
+    background:  url('../pic/backGrouund.png');
+     -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    background-size:cover ;
+    margin-top: 30px;
+    position: relative
+}
+
+.overlay{
+  background:   rgba(0, 167, 157, 0.19);
+       width: 100%;
+    height: 100%;
+}
+
+.subscribe  img{
+    width: 120px;
+    height: 120px;
+    margin-top: 30px; 
+    position: relative;
+    
+}
+@media (max-width: 767px){
+    .subscribe  img{
+    width: 80px;
+    height: 80px;
+    }
+}
+
+.subscribe  input{
+    background-color: #e66761;
+    color: white;
+    padding: 20px;
+   width: 60%;
+    display: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+}
+:focus{
+    outline: none;
+}
+.hide-me:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+.hide-me:focus::-moz-input-placeholder
+    opacity: 0;
+}
+.hide-me:focus::-ms-input-placeholder{
+    opacity: 0;
+}
+
+::-webkit-input-placeholder{
+    color:white;
+margin-right: 100px
+}
+
+
+/* end pets place  */
+
+/* start our work */
+
+.text-block {
+    position:absolute;
+    bottom: 0px;
+    background-color:#e66761 ;
+    color: white;
+    width: 100%;
+    
+}
+.our-work {
+    padding: 50px 0
+}
+.our-work h3{
+color: #e66761;
+ 
+    display: inline-block;
+    border-bottom: 2px solid #00a79d;
+}
+
+@media (min-width: 992px) {
+    .our-work .items-box .item{
+        margin-left: 15px;
+    } 
+
+}
+
+
+.our-work .items-box .item{
+    float: left;
+    overflow: hidden;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative
+}
+.our-work .items-box .item:hover .over{
+    display: block
+} /* azharholi awal ama aro7 3aleh*/
+
+.our-work .items-box .item .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+background-color:  rgba(0, 167, 157, 0.9);
+    color: #FFF;
+  -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    display: none
+}
+.item .over h4{
+    margin-top: 10px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top:0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background: rgba(49, 55, 61, .6)  ;
+    padding:0px;
+        opacity: 1;
+  
+}
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+
+.model-add{
+	width:80%;
+
+    top: 0;
+	margin:20px auto;
+	background-color: #fefefe;
+    margin: 0 auto 1% auto; 
+    border: 1px solid #888;
+}
+
+.add {
+margin-left: 25px;
+  margin-right: 25px;
+    text-align: right
+}
+
+
+ .add img{
+     margin-left: 25px;
+    width: 200px;
+    height: 120px;
+    margin-right: 25px;
+    margin-top: 5px;
+    
+}
+
+
+
+
+/* end our work */
+
+
+/* start doctor */
+.responsive-image{
+    width: 100%
+}
+.our-team{
+padding: 120px 0;
+    position: relative;
+}
+.our-team h2{
+font-size: 35px;
+  
+margin-bottom: 50px;
+
+    color:  #00a79d; 
+}
+.our-team h2 span{
+  color: #e66761;
+font-family: Brush Script MT, Brush Script Std, cursive ;
+font-size: 35px;
+ text-transform: uppercase;
+}
+
+.our-team h2 span img{
+    width: 80px;
+    height: 80px;
+        
+}
+
+.our-team .the-team .person{
+float: left;
+margin-left: 8%;
+color: #888;
+width: 100%;
+margin-bottom: 30px
+}
+
+@media (min-width: 992px) {
+    .our-team .the-team .person{
+         width: 24%;
+    } 
+
+}
+
+.our-team .the-team .person:hover img {
+filter: none;
+-webkit-filter: grayscale(0);
+    border-radius: 50%
+}
+.our-team .the-team .person:hover {
+color: #555
+}
+
+
+.our-team .the-team .person:hover .fa-facebook {
+background-color: #3b5998
+}
+.our-team .the-team .person:hover .fa-twitter {
+background-color: #1da1f2
+}
+.our-team .the-team .person:hover .fa-google-plus {
+background-color: #dd4b39
+}
+
+.our-team .the-team .person img{
+
+height: 290px; /* eltol w el 3ard 3ashan a5le el swar ad ba3d*/
+filter: grayscale(1); /* ellon el gray el fo2 el soraaa*/
+-webkit-filter: grayscale(1);
+    
+}
+.our-team .the-team .person:hover h3{
+    color: #e66761;
+    text-transform: uppercase;
+    font-family: cursive;
+
+    
+}
+.our-team .the-team .person p{
+font-size: 15px;
+margin-top: 8px
+}
+.our-team .the-team .person .social-icons i{
+background-color: #999;
+width: 40px;
+height: 40px;
+line-height: 40px;
+border-radius: 50%;
+color: #FFF 
+}  
+
+
+/* end doctor */
+
+
+
+
+
+
